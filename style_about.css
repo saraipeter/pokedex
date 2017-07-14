@@ -1,0 +1,17 @@
+body {
+    /*background-image: url("Pikachu.png");*/
+    /*background-position: bottom;*/
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    /*background: transparent;*/
+}
+
+body > img {
+    position: absolute;
+    opacity: 0.75;
+    z-index: -1;
+}
+
+p::first-letter{
+
+}

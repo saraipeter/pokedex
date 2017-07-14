@@ -1,8 +1,18 @@
+html{
+
+    font-family: "Lucida Handwriting", serif;
+}
+
+h1{
+    text-align: center;
+}
 
 #logo{
     width: 190px;
     height: 80px;
     display: flex;
+    margin: 0px 10px;
+    /*flex: 1;*/
 }
 
 #menuNav{
@@ -11,7 +21,7 @@
     background-color: antiquewhite;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     margin: 0;
 }
 
@@ -22,9 +32,18 @@
     display: flex;
     list-style-type: none;
     justify-content: flex-start;
+    /*flex: 2;*/
+}
 
+#menuNav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
 }
 
 #menuNav ul li{
-    /*padding: 0 10%;*/
+
+
+    padding: 0 10px
 }
