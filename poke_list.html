@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pokedex pokemons</title>
+    <link rel="stylesheet" href="style_common.css">
+    <link rel="stylesheet" href="style_list.css">
+</head>
+<body>
+<img id="backgroundPic">
+
+<nav id="menuNav">
+    <div ><img id="logo" src="pokemon-logo.png"></div>
+    <ul id="menuList">
+        <li><a href="poke_about.html">About</a></li>
+        <li><a href="poke_list.html">List</a></li>
+    </ul>
+</nav>
+
+<header>
+    <h1>Pokemons</h1>
+</header>
+
+<main>
+    <article>
+        <section id="sectionFormSearch">
+            <form id="searchForm">
+                <!--<label>Search</label>-->
+                <input id="search" onkeyup="fuggvenyNeveAkeresesre()" type="search" placeholder="Search for Pokemon">
+            </form>
+        </section>
+        <section>
+            <ul id="pokemonList">
+
+            </ul>
+        </section>
+    </article>
+</main>
+<script src="data.js"></script>
+<script src="pokemons.js"></script>
+<footer>
+    Copyright...
+</footer>
+
+</body>
+
+
+</html>

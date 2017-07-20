@@ -1,0 +1,167 @@
+
+body {
+    /*background-image: url("Pikachu.png");*/
+    /*background-position: bottom;*/
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    /*background: transparent;*/
+}
+
+#sectionFormSearch{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#searchForm{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 15vw;
+
+    /*justify-content: center;*/
+}
+
+#searchForm label
+{
+    align-content: flex-end;
+
+    /*width: 5vw;*/
+}
+
+#searchForm input{
+    margin-right: 5vw;
+    width: 15vw;
+}
+
+main article section ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main article section ul li{
+    position: relative;
+    list-style-type: none;
+}
+
+
+main li > span {
+    position: relative;
+    top: 0;
+    width: 90px;
+    height: 120px;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main li > span span {
+    position: absolute;
+    display: block;
+    font-style: italic;
+    flex-grow: 1;
+    text-align: center;
+    text-indent: 110%;
+    overflow: hidden;
+
+    top:0;
+
+    height: 120px;
+}
+
+/*main li > span span:nth-of-type(1){*/
+/*z-index: -1;*/
+/*left:0;*/
+/*}*/
+
+/*main li > span span:first-of-type {*/
+/*z-index: -1;*/
+/*right:0;*/
+/*}*/
+
+/*main li > span span:last-of-type {*/
+/*z-index: -1;*/
+/*right:0;*/
+/*}*/
+
+
+.firstType{
+    z-index: -1;
+    width: 45px;
+    left: 0;
+}
+
+.secondType{
+    z-index: -1;
+    width: 45px;
+    right: 0;
+}
+
+.onlytype{
+    z-index: -1;
+    width: 90px;
+    left: 0;
+}
+
+
+main li > span .normal {
+    background: linear-gradient(to bottom, #a8a77a, transparent);
+}
+main li span .fire {
+    background: linear-gradient(to bottom, #ee8130, transparent);
+}
+main li > span .water {
+    background: linear-gradient(to bottom, #6390f0, transparent);
+}
+main li span .electric {
+    background: linear-gradient(to bottom, #f7d02c, transparent);
+}
+main li > span .grass {
+    background: linear-gradient(to bottom, #7ac74c, transparent);
+}
+main li > span .ice {
+    background: linear-gradient(to bottom, #96d9d6, transparent);
+}
+main li > span .fighting {
+    background: linear-gradient(to bottom, #c22e28, transparent);
+}
+main li > span .poison {
+    background: linear-gradient(to bottom, #a33ea1, transparent);
+}
+main li > span .ground {
+    background: linear-gradient(to bottom, #e2bf65, transparent);
+}
+main li > span .flying {
+    background: linear-gradient(to bottom, #a98ff3, transparent);
+}
+main li > span .psychic {
+    background: linear-gradient(to bottom, #f95587, transparent);
+}
+main li > span .bug {
+    background: linear-gradient(to bottom, #a6b91a, transparent);
+}
+main li > span .rock {
+    background: linear-gradient(to bottom, #b6a136, transparent);
+}
+main li > span .ghost {
+    background: linear-gradient(to bottom, #735797, transparent);
+}
+main li > span .dragon {
+    background: linear-gradient(to bottom, #6f35fc, transparent);
+}
+main li > span .dark {
+    background: linear-gradient(to bottom, #705746, transparent);
+}
+main li > span .steel {
+    background: linear-gradient(to bottom, #b7b7ce, transparent);
+}
+main li > span .fairy {
+    background: linear-gradient(to bottom, #d685ad, transparent);
+}
+main li label {
+    display: block;
+    text-align: center;
+}

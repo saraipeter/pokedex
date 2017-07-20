@@ -6,12 +6,6 @@ body {
     /*background: transparent;*/
 }
 
-body > img {
-    position: absolute;
-    opacity: 0.75;
-    z-index: -1;
-}
-
 p::first-letter{
 
 }
